@@ -87,3 +87,8 @@ exclude_generator:
 deploy:
   type: github
   repo: git@github.com:delightfulapp/blog.git 
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
