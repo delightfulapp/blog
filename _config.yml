@@ -4,9 +4,9 @@
 
 # Site
 title: Delightful App Blog
-subtitle:
+subtitle: Trovebox client for iPhone.
 description:
-author: Nico Prananta
+author: Delightful for iPhone
 email:
 language:
 
@@ -79,7 +79,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: yilia
 exclude_generator:
 
 # Deployment
