@@ -219,6 +219,10 @@ a {
   display: inline-block;
   margin: 3px;
 }
+#container #mobile-nav #header .header-subtitle a {
+  color: #258fb8;
+  font-family: inherit !important;
+}
 #container .left-col {
   background: #fff;
   width: 300px;
