@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Free and Open Source Trovebox client for iPhone. <a href="http://getdelightfulapp.com">More info here</a>.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://delightfulapp.github.io/blog/"/>
-  <updated>2014-10-31T15:42:23.888Z</updated>
+  <updated>2014-11-30T01:51:14.288Z</updated>
   <id>http://delightfulapp.github.io/blog/</id>
   
   <author>
@@ -13,6 +13,44 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Multiple Photos Selection for Delightful Upload Feature]]></title>
+    <link href="http://delightfulapp.github.io/blog/2014/11/30/Multiple-photos-selection-for-Delightful-Upload-feature/"/>
+    <id>http://delightfulapp.github.io/blog/2014/11/30/Multiple-photos-selection-for-Delightful-Upload-feature/</id>
+    <published>2014-11-30T01:07:54.000Z</published>
+    <updated>2014-11-30T01:50:20.000Z</updated>
+    <content type="html"><![CDATA[<p>For Deligthful upload feature, there are some features I want to have when selecting photos:</p>
+<ol>
+<li>Drag to select multiple photos quickly.</li>
+<li>Being able to preview a photo. Either by tap and hold the photo or pinch out the photo.</li>
+</ol>
+<a id="more"></a>
+
+<p>I chose to use the new Photos framework instead of Assets Library since Delightful only supports iOS 8 or later. Another thing is I chose to use the new UISplitViewController since it now is available on the iPhone. And using UISplitViewController, albums and photos apear side by side in landscape mode. The result is <a href="https://github.com/nicnocquee/DLFPhotosPicker" target="_blank" rel="external">DLFPhotosPicker</a>.</p>
+<p><img src="https://raw.githubusercontent.com/nicnocquee/DLFPhotosPicker/master/screenshots/iOS%20Simulator%20Screen%20Shot%20Nov%2030,%202014,%2009.38.34.png" alt=""></p>
+<p>I’d like include DLFPhotosPicker in cocoapods but I still haven’t figured out how to include PhotosPicker.storyboard in the pod. Any advice is greatly appreciated.</p>
+<p align="center">
+<video width="320" controls>
+  <source src="http://f.cl.ly/items/2K1m2f2W1L1v0a090o0q/demo-11.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</p>]]></content>
+    <summary type="html">
+    <![CDATA[<p>For Deligthful upload feature, there are some features I want to have when selecting photos:</p>
+<ol>
+<li>Drag to select multiple photos quickly.</li>
+<li>Being able to preview a photo. Either by tap and hold the photo or pinch out the photo.</li>
+</ol>
+]]>
+    
+    </summary>
+    
+      <category term="ios" scheme="http://delightfulapp.github.io/blog/tags/ios/"/>
+    
+      <category term="development" scheme="http://delightfulapp.github.io/blog/tags/development/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Developing Offline Support for Delightful App]]></title>
