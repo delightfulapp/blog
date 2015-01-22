@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Free and Open Source Trovebox client for iPhone. <a href="http://getdelightfulapp.com">More info here</a>.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://delightfulapp.github.io/blog/"/>
-  <updated>2014-11-30T01:51:14.288Z</updated>
+  <updated>2015-01-22T09:49:34.274Z</updated>
   <id>http://delightfulapp.github.io/blog/</id>
   
   <author>
@@ -13,6 +13,30 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[New Icon]]></title>
+    <link href="http://delightfulapp.github.io/blog/2015/01/22/New-Icon/"/>
+    <id>http://delightfulapp.github.io/blog/2015/01/22/New-Icon/</id>
+    <published>2015-01-22T09:19:11.000Z</published>
+    <updated>2015-01-22T09:49:13.000Z</updated>
+    <content type="html"><![CDATA[<p>Here we go again with the abruptness of Apple App Store Review process. The update for Delightful was rejected because according to the reviewer it violated the <a href="https://developer.apple.com/app-store/review/guidelines/#trademarks-trade-dress" target="_blank" rel="external">rule 8.3</a>:</p>
+<blockquote>
+<p>Apps that appear confusingly similar to an existing Apple product, interface, or advertising theme will be rejected.</p>
+</blockquote>
+<p>Specifically they said Delightful’s icon is <em>confusingly</em> similar to the iCloud logo. They didn’t have problem when the app was submitted the first time. Now they do. I could argue that Delightful’s icon and iCloud are different especially the color. Not to mention that the cloud shape is a <a href="https://www.google.co.jp/search?q=cloud+icon&amp;es_sm=91&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=4sXAVPj8E8WomgXs-4KoBw&amp;ved=0CAgQ_AUoAQ&amp;biw=1361&amp;bih=673" target="_blank" rel="external">pretty generic cloud icon</a>. But from my experience, it is unlikely for Apple Reviewer to change their decision. </p>
+<p>Since I don’t want to delay the update any longer, I submitted the update with a new icon. No more cloud shape. Screw the cloud. I’m going with bubbles now. Bubbles are cool.</p>
+<p><img src="http://f.cl.ly/items/3d3U3V1N0W153G2Z0Y0D/delightful-icon.png" alt="Delightful App New Icon"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Here we go again with the abruptness of Apple App Store Review process. The update for Delightful was rejected because according to the r]]>
+    </summary>
+    
+      <category term="ios" scheme="http://delightfulapp.github.io/blog/tags/ios/"/>
+    
+      <category term="development" scheme="http://delightfulapp.github.io/blog/tags/development/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Multiple Photos Selection for Delightful Upload Feature]]></title>
