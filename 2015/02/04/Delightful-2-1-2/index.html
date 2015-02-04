@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: development | Delightful App Blog</title>
+  <title>Delightful 2.1.2 | Delightful App Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Delightful App Blog">
-<meta property="og:url" content="http://delightfulapp.github.io/blog/tags/development/">
+  <meta name="description" content="Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Delightful 2.1.2">
+<meta property="og:url" content="http://delightfulapp.github.io/blog/2015/02/04/Delightful-2-1-2/">
 <meta property="og:site_name" content="Delightful App Blog">
-<meta property="og:description">
+<meta property="og:description" content="Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.">
+<meta property="og:image" content="Delightful app update review timeline">
+<meta property="og:image" content="Delightful2.1.2 update notes">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Delightful App Blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="Delightful 2.1.2">
+<meta name="twitter:description" content="Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.">
 
   
     <link rel="alternative" href="/atom.xml" title="Delightful App Blog" type="application/atom+xml">
@@ -111,17 +113,15 @@
 		</header>				
 	</div>
 </nav>
-      
-  
-    <article id="post-New-Icon" class="article article-type-post" itemscope itemprop="blogPost">
+      <article id="post-Delightful-2-1-2" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/01/22/New-Icon/" class="article-date">
-  	<time datetime="2015-01-22T09:19:11.000Z" itemprop="datePublished">Jan 22 2015</time>
+      <a href="/2015/02/04/Delightful-2-1-2/" class="article-date">
+  	<time datetime="2015-02-04T00:32:03.000Z" itemprop="datePublished">Feb 4 2015</time>
 </a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/development/">development</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ios/">ios</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ios/">ios</a></li></ul>
 
     </div>
   
@@ -133,8 +133,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/01/22/New-Icon/">New Icon</a>
+    <h1 class="article-title" itemprop="name">
+      Delightful 2.1.2
     </h1>
   
 
@@ -142,19 +142,31 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Here we go again with the abruptness of Apple App Store Review process. The update for Delightful was rejected because according to the reviewer it violated the <a href="https://developer.apple.com/app-store/review/guidelines/#trademarks-trade-dress" target="_blank" rel="external">rule 8.3</a>:</p>
-<blockquote>
+        <p><img src="Delightful app update review timeline" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-review-timeline.png"></p>
+<p>Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.</p>
+<a id="more"></a>
 
-<p>Apps that appear confusingly similar to an existing Apple product, interface, or advertising theme will be rejected.</p>
-<footer><strong>Apple </strong><cite><a href="https://developer.apple.com/app-store/review/guidelines/" target="_blank" rel="external">App Store Review Guidelines</a></cite></footer></blockquote>
+<p>The first rejection was because of the icon which was unfortunate because <a href="blog.getdelightfulapp.com/2015/01/22/New-Icon/">I really liked that icon</a>. The second rejection was because there was a bug with the uploading feature. The app claimed that the upload was successful yet the photo wasn’t uploaded. This was because Trovebox <em>unfortunately</em> entered the read-only mode starting January 24.</p>
+<p><blockquote class="twitter-tweet" lang="en"><p>All hosted Trovebox accounts are now in read-only mode. Sign in and see our announcement here, <a href="https://t.co/fLAxmIpqHW" target="_blank" rel="external">https://t.co/fLAxmIpqHW</a></p>&mdash; Trovebox (@trovebox) <a href="https://twitter.com/trovebox/status/559236072312283136" target="_blank" rel="external">January 25, 2015</a></blockquote></p>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<p>Normally developer needs to re-submit update and wait again when the app/update is rejected. But since this was fixable from the server side, I could simply requested the app reviewer to review the app again. And it worked! They reviewed and approved it swiftly. </p>
+<p><img src="Delightful2.1.2 update notes" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-updates.png"></p>
+<p>So what’s new in this version? A lot. Bug fixes and some new features:</p>
+<ul>
+<li>Optional Title and Description for photos to upload.</li>
+<li>Option to resize photos after upload to save storage space in your device.</li>
+<li>Remember user’s choice on Resize after upload option.</li>
+<li>Guest access. User can skip login but will only see public photos/albums/tags and cannot upload.</li>
+<li>Favoriting a photo will tag the photo with “Favorites” tag. </li>
+<li>Migrate previous locally favorited photos to Favorites tag</li>
+<li>Show indicator when migrating favorites.</li>
+<li>Show indicator when syncing favorites.</li>
+<li>Separate share link and share image.</li>
+<li>Loading indicator on title view to indicate synchronization in operation.</li>
+</ul>
+<p>The update should be available in your App Store by now. Don’t forget to rate it! :)</p>
 
-
-        
-          <p class="article-more-link">
-            <a href="/2015/01/22/New-Icon/#more">more >></a>
-          </p>
-        
       
     </div>
     <footer class="article-footer">
@@ -163,61 +175,17 @@
     </footer>
   </div>
   
-</article>
-
-
-
-
-
-
-  
-    <article id="post-Multiple-photos-selection-for-Delightful-Upload-feature" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2014/11/30/Multiple-photos-selection-for-Delightful-Upload-feature/" class="article-date">
-  	<time datetime="2014-11-30T01:07:54.000Z" itemprop="datePublished">Nov 30 2014</time>
-</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/development/">development</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ios/">ios</a></li></ul>
-
-    </div>
-  
-  <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/11/30/Multiple-photos-selection-for-Delightful-Upload-feature/">Multiple Photos Selection for Delightful Upload Feature</a>
-    </h1>
   
+    <a href="/2015/01/22/New-Icon/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">New Icon</div>
+      <strong class="article-nav-caption">&gt;</strong>
+    </a>
+  
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>For Deligthful upload feature, there are some features I want to have when selecting photos:</p>
-<ol>
-<li>Drag to select multiple photos quickly.</li>
-<li>Being able to preview a photo. Either by tap and hold the photo or pinch out the photo.</li>
-</ol>
-
-        
-          <p class="article-more-link">
-            <a href="/2014/11/30/Multiple-photos-selection-for-Delightful-Upload-feature/#more">more >></a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-    </footer>
-  </div>
   
 </article>
 
@@ -225,9 +193,6 @@
 
 
 
-
-  
-  
 
       <footer id="footer">
   <div class="outer">

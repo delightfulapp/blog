@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Free and Open Source Trovebox client for iPhone. <a href="http://getdelightfulapp.com">More info here</a>.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://delightfulapp.github.io/blog/"/>
-  <updated>2015-01-22T09:49:34.274Z</updated>
+  <updated>2015-02-04T01:07:17.935Z</updated>
   <id>http://delightfulapp.github.io/blog/</id>
   
   <author>
@@ -15,21 +15,76 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Delightful 2.1.2]]></title>
+    <link href="http://delightfulapp.github.io/blog/2015/02/04/Delightful-2-1-2/"/>
+    <id>http://delightfulapp.github.io/blog/2015/02/04/Delightful-2-1-2/</id>
+    <published>2015-02-04T00:32:03.000Z</published>
+    <updated>2015-02-04T01:07:03.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="Delightful app update review timeline" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-review-timeline.png"></p>
+<p>Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.</p>
+<a id="more"></a>
+
+<p>The first rejection was because of the icon which was unfortunate because <a href="blog.getdelightfulapp.com/2015/01/22/New-Icon/">I really liked that icon</a>. The second rejection was because there was a bug with the uploading feature. The app claimed that the upload was successful yet the photo wasn’t uploaded. This was because Trovebox <em>unfortunately</em> entered the read-only mode starting January 24.</p>
+<p><blockquote class="twitter-tweet" lang="en"><p>All hosted Trovebox accounts are now in read-only mode. Sign in and see our announcement here, <a href="https://t.co/fLAxmIpqHW" target="_blank" rel="external">https://t.co/fLAxmIpqHW</a></p>&mdash; Trovebox (@trovebox) <a href="https://twitter.com/trovebox/status/559236072312283136" target="_blank" rel="external">January 25, 2015</a></blockquote></p>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Normally developer needs to re-submit update and wait again when the app/update is rejected. But since this was fixable from the server side, I could simply requested the app reviewer to review the app again. And it worked! They reviewed and approved it swiftly. </p>
+<p><img src="Delightful2.1.2 update notes" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-updates.png"></p>
+<p>So what’s new in this version? A lot. Bug fixes and some new features:</p>
+<ul>
+<li>Optional Title and Description for photos to upload.</li>
+<li>Option to resize photos after upload to save storage space in your device.</li>
+<li>Remember user’s choice on Resize after upload option.</li>
+<li>Guest access. User can skip login but will only see public photos/albums/tags and cannot upload.</li>
+<li>Favoriting a photo will tag the photo with “Favorites” tag. </li>
+<li>Migrate previous locally favorited photos to Favorites tag</li>
+<li>Show indicator when migrating favorites.</li>
+<li>Show indicator when syncing favorites.</li>
+<li>Separate share link and share image.</li>
+<li>Loading indicator on title view to indicate synchronization in operation.</li>
+</ul>
+<p>The update should be available in your App Store by now. Don’t forget to rate it! :)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="Delightful app update review timeline" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-review-timeline.png"></p>
+<p>Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.</p>
+]]>
+    
+    </summary>
+    
+      <category term="ios" scheme="http://delightfulapp.github.io/blog/tags/ios/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[New Icon]]></title>
     <link href="http://delightfulapp.github.io/blog/2015/01/22/New-Icon/"/>
     <id>http://delightfulapp.github.io/blog/2015/01/22/New-Icon/</id>
     <published>2015-01-22T09:19:11.000Z</published>
-    <updated>2015-01-22T09:49:13.000Z</updated>
+    <updated>2015-01-22T09:56:03.000Z</updated>
     <content type="html"><![CDATA[<p>Here we go again with the abruptness of Apple App Store Review process. The update for Delightful was rejected because according to the reviewer it violated the <a href="https://developer.apple.com/app-store/review/guidelines/#trademarks-trade-dress" target="_blank" rel="external">rule 8.3</a>:</p>
 <blockquote>
+
 <p>Apps that appear confusingly similar to an existing Apple product, interface, or advertising theme will be rejected.</p>
-</blockquote>
+<footer><strong>Apple </strong><cite><a href="https://developer.apple.com/app-store/review/guidelines/" target="_blank" rel="external">App Store Review Guidelines</a></cite></footer></blockquote>
+
+
+<a id="more"></a>
+
 <p>Specifically they said Delightful’s icon is <em>confusingly</em> similar to the iCloud logo. They didn’t have problem when the app was submitted the first time. Now they do. I could argue that Delightful’s icon and iCloud are different especially the color. Not to mention that the cloud shape is a <a href="https://www.google.co.jp/search?q=cloud+icon&amp;es_sm=91&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=4sXAVPj8E8WomgXs-4KoBw&amp;ved=0CAgQ_AUoAQ&amp;biw=1361&amp;bih=673" target="_blank" rel="external">pretty generic cloud icon</a>. But from my experience, it is unlikely for Apple Reviewer to change their decision. </p>
 <p>Since I don’t want to delay the update any longer, I submitted the update with a new icon. No more cloud shape. Screw the cloud. I’m going with bubbles now. Bubbles are cool.</p>
 <p><img src="http://f.cl.ly/items/3d3U3V1N0W153G2Z0Y0D/delightful-icon.png" alt="Delightful App New Icon"></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Here we go again with the abruptness of Apple App Store Review process. The update for Delightful was rejected because according to the r]]>
+    <![CDATA[<p>Here we go again with the abruptness of Apple App Store Review process. The update for Delightful was rejected because according to the reviewer it violated the <a href="https://developer.apple.com/app-store/review/guidelines/#trademarks-trade-dress" target="_blank" rel="external">rule 8.3</a>:</p>
+<blockquote>
+
+<p>Apps that appear confusingly similar to an existing Apple product, interface, or advertising theme will be rejected.</p>
+<footer><strong>Apple </strong><cite><a href="https://developer.apple.com/app-store/review/guidelines/" target="_blank" rel="external">App Store Review Guidelines</a></cite></footer></blockquote>
+
+
+]]>
+    
     </summary>
     
       <category term="ios" scheme="http://delightfulapp.github.io/blog/tags/ios/"/>
