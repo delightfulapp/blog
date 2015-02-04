@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Free and Open Source Trovebox client for iPhone. <a href="http://getdelightfulapp.com">More info here</a>.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://delightfulapp.github.io/blog/"/>
-  <updated>2015-02-04T01:07:17.935Z</updated>
+  <updated>2015-02-04T01:12:54.422Z</updated>
   <id>http://delightfulapp.github.io/blog/</id>
   
   <author>
@@ -19,17 +19,17 @@
     <link href="http://delightfulapp.github.io/blog/2015/02/04/Delightful-2-1-2/"/>
     <id>http://delightfulapp.github.io/blog/2015/02/04/Delightful-2-1-2/</id>
     <published>2015-02-04T00:32:03.000Z</published>
-    <updated>2015-02-04T01:07:03.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="Delightful app update review timeline" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-review-timeline.png"></p>
-<p>Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.</p>
+    <updated>2015-02-04T01:12:45.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-review-timeline.png" alt="Delightful app update review timeline"></p>
+<p>Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and <a href="https://itunes.apple.com/us/app/delightful-trovebox-photo/id878230610?ls=1&amp;mt=8" target="_blank" rel="external">available in the App Store</a>.</p>
 <a id="more"></a>
 
-<p>The first rejection was because of the icon which was unfortunate because <a href="blog.getdelightfulapp.com/2015/01/22/New-Icon/">I really liked that icon</a>. The second rejection was because there was a bug with the uploading feature. The app claimed that the upload was successful yet the photo wasn’t uploaded. This was because Trovebox <em>unfortunately</em> entered the read-only mode starting January 24.</p>
+<p>The first rejection was because of the icon which was unfortunate because <a href="blog.getdelightfulapp.com/2015/01/22/New-Icon/">I really liked that icon</a>. The second rejection was because there was a bug with the uploading feature. The app claimed that the upload was successful yet the photo wasn’t uploaded. This was because Trovebox <em>unfortunately</em> entered the read-only mode starting January 25.</p>
 <p><blockquote class="twitter-tweet" lang="en"><p>All hosted Trovebox accounts are now in read-only mode. Sign in and see our announcement here, <a href="https://t.co/fLAxmIpqHW" target="_blank" rel="external">https://t.co/fLAxmIpqHW</a></p>&mdash; Trovebox (@trovebox) <a href="https://twitter.com/trovebox/status/559236072312283136" target="_blank" rel="external">January 25, 2015</a></blockquote></p>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>Normally developer needs to re-submit update and wait again when the app/update is rejected. But since this was fixable from the server side, I could simply requested the app reviewer to review the app again. And it worked! They reviewed and approved it swiftly. </p>
-<p><img src="Delightful2.1.2 update notes" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-updates.png"></p>
+<p><img src="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-updates.png" alt="Delightful2.1.2 update notes"></p>
 <p>So what’s new in this version? A lot. Bug fixes and some new features:</p>
 <ul>
 <li>Optional Title and Description for photos to upload.</li>
@@ -46,8 +46,8 @@
 <p>The update should be available in your App Store by now. Don’t forget to rate it! :)</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><img src="Delightful app update review timeline" alt="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-review-timeline.png"></p>
-<p>Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and available in the App Store.</p>
+    <![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/2476826/delightful2.1.2-review-timeline.png" alt="Delightful app update review timeline"></p>
+<p>Finally! After 21 (TWENTY) days being stuck in App Store review process, Delightful 2.1.2 is approved and <a href="https://itunes.apple.com/us/app/delightful-trovebox-photo/id878230610?ls=1&amp;mt=8" target="_blank" rel="external">available in the App Store</a>.</p>
 ]]>
     
     </summary>
